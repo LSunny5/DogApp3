@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Image of a Specific Breed</title>
+    <meta name="description" content="Enter a breed and see a random image by Sunny Lee 2020">
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+</head>
+<body>
+    <!--Question 3 from Simple Get Requests-->
+    <section class="task">
+        <h1>Show Random Image of a Specific Dog Breed</h1>
+
+        <form>
+            <label for="question">Please enter the breed of the dog you would like to see: </label>
+            <input type="text" name="question" id="breed" placeholder="chihuahua, spitz, etc..." required>
+            <button type="submit" class="submitButton">Fetch!</button>
+        </form>
+        
+        <section class="results hidden">
+        </section>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+   </body>
+</html>
